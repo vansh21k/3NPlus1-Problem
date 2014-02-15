@@ -12,7 +12,6 @@ inp = raw_input("Enter 2 numbers seperated by space\n")
 a,b = inp.strip().split(' ')
 a = int(a)
 b = int(b)
-print a,b
 if (a > b):
     a,b = b,a #Swaps integers, a should be lesser than b
 max_cycle, cur_cycle = 0, 0 #max_cycle to keep state of current max, cur_cycle to keep state of current
